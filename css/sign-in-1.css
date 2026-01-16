@@ -1,0 +1,176 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Satoshi Regular';
+    margin: 10px;
+}
+
+main {
+    flex: 1;
+}
+
+.logo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 50px;
+}
+
+.logo svg {
+    width: 200px;
+    height: auto;
+}
+
+.head {
+    display: flex;
+    width: 100%;
+    font-size: 18px;
+    justify-content: center;
+}
+
+.create-acc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f5f5f5;
+    padding: 3px;
+    padding-inline: 20px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+}
+
+.create-acc a {
+    display: flex;
+    align-items: center;
+    padding-inline: 4px;
+    justify-content: center;
+    background: none;
+    border:1px solid #1F6F78;
+    width: 100px;
+    height: 22px;
+    text-align: center;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Satoshi Light';
+    font-size: 14px;
+}
+
+.create-acc-btn {
+    border: none;
+    border-radius: 15px;
+    outline: none;
+}
+
+.text-input {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.text-input input {
+    width: 98%;
+    border: 1px solid #1F6F78;
+    padding: 10px 0 10px 0;
+    padding-inline: 8px;
+    border-radius: 8px;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.continue-btn {
+    display:flex;
+    justify-content: center;
+    width: 99%;
+    padding: 6px;
+}
+
+.continue-btn a {
+    font-family: 'Satoshi Medium';
+    background: #1F6F78;
+    width: 100%;
+    height: 30px;
+    align-content: center;
+    padding-inline: 200px;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: #FF7F2A;
+}
+
+.or {
+    display: flex;
+    margin: 30px 0;
+    align-items: center;
+}
+
+span {
+    padding-inline: 10px;
+}
+
+.bar {
+    flex: auto;
+    outline: none;
+    border: none;
+    height: 1px;
+    background: #f5f5f5;
+    padding: 0 5rem;
+}
+
+.google-btn {
+    display: flex;
+    border: none;
+    outline: none;
+    align-content: center;
+    
+}
+
+.google-btn svg {
+    width: 15px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.google {
+    display: flex;
+    width: 100%;
+}
+
+.google a {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    font-family: 'Satoshi Medium';
+    text-decoration: none;
+    color:#000;
+    border: 1px solid #1F6F78;
+    border-radius: 20px;
+    padding-inline: 10px;
+    
+}
+
+.google a span {
+    width: 100%;
+    text-align: center;
+}
+
+.copyright {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.copyright p {
+    margin: 0;
+    font-family: 'Satoshi Light Italic';
+    font-size: 10px;
+}
+
+.copyright a {
+    color: #1F6F78;
+}
+

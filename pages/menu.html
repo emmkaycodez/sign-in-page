@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/fonts/style.css" type="text/css" rel="stylesheet">
+    <link href="/css/menu.css" type="text/css" rel="stylesheet">
+    <title>Menu</title>
+</head>
+<body>
+    <!--Menu Exit-->
+    <div class="exit-icon">
+        <a href="/index.html" class="menu-exit">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+            </svg>
+        </a>
+    </div>
+
+    <div class="sign-up">
+        <p><a href="#">Sign In</a> or <a href="#">Create Account</a></p>
+    </div>
+    <hr>
+
+    <div class="menu-links">
+        <p><a href="#">Orders</a></p>
+        <p><a href="#">Contact Us</a></p>
+        <p><a href="#">Terms & Privacy</a></p>
+    </div>
+    
+
+    <script>
+        document.getElementById("menu-exit").addEventListener("click", function () {
+            if (history.length > 1) {
+                history.back();
+            } else {
+                window.location.href = "/index.html"; //fallback
+            }
+        });
+    </script>
+</body>
+</html>
