@@ -1,0 +1,187 @@
+html, body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Satoshi Regular';
+    margin: 10px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+main {
+    flex: 1;
+}
+
+
+.logo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 50px;
+}
+
+.logo svg {
+    width: 200px;
+    height: auto;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.head h3 {
+    margin: 0;
+    font-size: 25px;
+}
+
+.head p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.head a {
+    font-size: 14px;
+    color: #FF7F2A;
+}
+
+.main-head {
+    display: flex;
+    width: 100%;
+    font-size: 18px;
+    justify-content: center;
+}
+
+.sub-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5ch;
+}
+
+.google-btn {
+    display: flex;
+    border: none;
+    outline: none;
+    align-content: center;
+    margin-top: 30px;
+    
+}
+
+.google-btn svg {
+    width: 25px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.google {
+    display: flex;
+    width: 100%;
+}
+
+.google a {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    font-family: 'Satoshi Medium';
+    text-decoration: none;
+    color:#000;
+    border: 1px solid #1F6F78;
+    border-radius: 30px;
+    padding: 15px 0;
+    padding-inline: 30px;
+    
+}
+
+.google a span {
+    width: 100%;
+    text-align: center;
+}
+
+.or {
+    display: flex;
+    margin: 30px 0;
+    align-items: center;
+    
+}
+
+span {
+    padding-inline: 10px;
+}
+
+.bar {
+    flex: auto;
+    outline: none;
+    border: none;
+    height: 1px;
+    background: #f5f5f5;
+    padding: 0 5rem;
+}
+
+.text-input {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.text-input input {
+    width: 100%;
+    border: 1px solid #1F6F78;
+    padding: 15px 0;
+    padding-inline: 8px;
+    border-radius: 8px;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.sign-in-btn {
+    display:flex;
+    justify-self: center;
+    width: 100%;
+    padding: 6px;
+}
+
+.sign-in-btn a {
+    font-family: 'Satoshi Medium';
+    background: #1F6F78;
+    width: 100%;
+    padding: 15px 0;
+    align-content: center;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    color: #FF7F2A;
+}
+
+.reset-password {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.reset-password a {
+    color:#000;
+}
+
+.copyright {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.copyright p {
+    margin: 0;
+    font-family: 'Satoshi Light Italic';
+    font-size: 14px;
+}
+
+.copyright a {
+    color: #1F6F78;
+}
